@@ -1,7 +1,11 @@
 
 /* NAV bar css */
 
-
+/* CSS document for the navigation bar. 
+Contains a Compose button (#compose-button in index.html).
+The AJAX functionality of which is in the script/client.js 
+file at line 15 and the /styles/new-tweets.css file 
+(under form and form.show at line 19). */
 
 nav {
   position: fixed;
