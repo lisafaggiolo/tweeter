@@ -1,0 +1,13 @@
+
+
+.top-header {
+  margin-top: 5.5rem;
+  display: flex;
+  height: 400px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #faef76 ;
+  background-image: url("https://www.transparenttextures.com/patterns/noise-pattern-with-subtle-cross-lines.png"); 
+}
