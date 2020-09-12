@@ -10,17 +10,17 @@ $(document).ready(() => {
 
     $(".counter").text(charLeft);
     if (charLeft < 0) {
-      $( ".counter" ).addClass( "errCounter" );
+      $(".counter").addClass("errCounter");
 
     } else {
       $('.counter').removeClass('errCounter');
     }
   
-  })
+  });
 
   $("#button").on("click", () => {
 
     $('.counter').text(140).removeClass('errCounter');
-  })
+  });
 
-})
+});
