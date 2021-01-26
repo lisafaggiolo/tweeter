@@ -12,6 +12,7 @@
   display: flex;
   justify-content: center;
   width: 90%;
+  margin: 1rem;
 }
 
 
@@ -27,11 +28,13 @@ form {
 }
 
 form.show {
-  display: inline-block;
+  margin: 0.5rem;
+  display: flex;
   flex-direction: column;
+  justify-content: space-between;
   width: 95%;
   /* height: auto; */
-  height: 200px;
+  height: 15rem;
   visibility: visible;
   overflow: hidden;
 }
@@ -51,7 +54,9 @@ label {
 }
 
 .tweet-creator-container {
-  width: 90%;
+  width: 75%;
+  margin-left: 1rem;
+  margin-top: 1rem;
 }
 
 /*child to form/ has id*/
@@ -65,7 +70,7 @@ label {
   font-size: medium;
   background-color: #f4f1ec;
   width: 100%;
-  height: 2rem;
+  height: 4rem;
   margin: 0rem; 
   padding-bottom: 2%;
 };
@@ -99,7 +104,8 @@ button {
 
 
 .submit-div {
-  margin-top: 2%;
+  margin-top: 0,3rem;
+  border-bottom: 3rem;
   height: fit-content;
   display: flex;
   justify-content: space-between;
